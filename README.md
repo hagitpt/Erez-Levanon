@@ -5,11 +5,15 @@ Hagit T. Porath1, Shai Carmi2, Erez Y. Levanon1
 1 The Mina and Everard Goodman Faculty of Life Sciences, Bar-Ilan University, Ramat-Gan, 5290002, Israel
 2 Department of Computer Science, Columbia University, New York, NY 10027, USA
 Correspondence should be addressed to E.Y.L. (Erez.Levanon@biu.ac.il)
+
 Running of hyper_editing scripts
 for detection of hyper editing in RNA-Seq datasets (fastq files):
+
 Input: fastq files to be tested for hyper editing and afasta file of genome reference.
+
 Output: bed files of the hyper edited clusters and some statistics.
 For running the pipeline do as instructed bellow:
+
 1) The pipeline uses the following tools: "bwa", "bam2fastx" and "samtools". Make sure that
 these tools are installed in your system and specify the paths to each tool, as follows:
 "bwa" tool at TransformIndexBWA_genome.sh, and "bwa", "bam2fastx" and "samtools"
@@ -61,6 +65,7 @@ Argument definitions:
 length)
 7. Minimum of ending index of editing cluster in the read (float- fraction of read
 length)
+
 Output files and information:
 1) The folder UEdetect./detection_arguments/ contains the bed files of the detected clusters
 and sites, and detailed lists of all possible editing types for each analyzed fastq file.

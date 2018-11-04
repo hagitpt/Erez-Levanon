@@ -42,8 +42,7 @@ the "XXX" with the proper information):
 (expected 5 files like: prefix.amb, prefix.ann, prefix.bwt, prefix.pac, prefix.sa)
 3. genome_trans_bwa_ind="transformed_genome_prefix": insert the full path+prefix of
 the index of the transformed genomes (for each of the 6 transformed [a2c a2g a2t g2c
-t2c t2g]=>tt: 5 files: prefix.tt.amb, prefix.tt.ann, prefix.tt.bwt, prefix.tt.pac, prefix.tt.sa
-+ 1 fasta file prefix.tt.fa => tot 36 files)
+t2c t2g]=>tt: 5 files: prefix.tt.amb, prefix.tt.ann, prefix.tt.bwt, prefix.tt.pac, prefix.tt.sa + 1 fasta file prefix.tt.fa => tot 36 files)
 4. genome_fasta="genome_prefix.fa": insert the path+full_name of the fasta file of the
 original genome
 5. Q="33": insert the base quality PHRED score offset (33 or 64) of the source fastq files
